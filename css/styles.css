@@ -1,0 +1,26 @@
+body {
+    background: #ec6249;
+}
+
+.logo {
+    width: 100%;
+}
+
+a, p{
+    color: #eee;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.info>a {
+    font-size: 2em;
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+}
