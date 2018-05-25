@@ -1,0 +1,47 @@
+body {
+    background: #f4f4f4;
+    margin: none;
+}
+
+a, p{
+    color: #eee;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.ribbon {
+    position: fixed;
+    height: 400px;
+    width: 120%;
+}
+
+.top-bg {
+    background: #ef5350;
+    transform: translate(-10%, 0) rotate(-15deg);
+}
+
+.bottom-bg {
+    background: #111;
+    transform: translate(-10%, 480px) rotate(15deg);
+}
+
+@media (max-width: 768px) {
+    .ribbon {
+        height: 200px;
+        width: 200%;
+    }
+
+    .bottom-bg {
+        transform: translate(-10%, 380px) rotate(15deg);
+    }
+}
+
+@media (max-width: 376px) {
+    .bottom-bg {
+        transform: translate(-10%, 280px) rotate(15deg);
+    }
+}
